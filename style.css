@@ -1,0 +1,63 @@
+body {
+	font-family: 'Aclonica';
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 160px;
+    margin-bottom: 0%;
+	padding-bottom: 0%;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+}
+
+.speech-bubble {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	position: relative;
+	background: black;
+    border-radius: 50%;
+    height: 300px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+	margin-top: 100px;
+}
+
+.speech-bubble:after {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 21px solid transparent;
+	border-top-color: black;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10.5px;
+	margin-bottom: -21px;
+}
+
+.rando-button-div {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#randomize {
+	margin-left: 20px;
+}
+
+#quote {
+	color:white;
+	flex: 0 1 auto;
+	align-self: center;
+}
+
+
